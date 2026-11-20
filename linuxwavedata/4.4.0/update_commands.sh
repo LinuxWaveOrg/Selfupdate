@@ -226,7 +226,7 @@ install_fresh() {
     want lib/latest.py 0 c0af297fef60278c8710ad4b28e6956c580ffe8662e41057552c4c08dc299117
     want lib/mirrorinfo.py 0 fad0406c3aeb68cdc7456626d0e0b76b2db0496a9c4b83a7635fbc95b8edfa32
     want lib/selfupdate.py 0 8ef3776cfe82c4ea7b3ed327485e3de061f9a11217d7de3096c88ef85680f31d
-    want lib/selfupdate.sh 1 77c2881a615dfd6edb75e363cd22acddf950f60ba414debd9330276a81ed5354
+    want lib/selfupdate.sh 1 ae4334582feee1c2005a5f0c69a383a130492e73c39bcda1764a0e7684953e24
     want lib/shellenv.py 0 7c6e90809622c392cfd8286b6f28f631bae529075957f5bc3f03ecb44dfda945
     want lib/steplog.py 0 2e6d83137bfea0ba6e3772310567a456af99d1675fe401cf02c2ad12dc29491c
     want lib/versioncompare.py 0 9c93715c7bf5767adf6aa7f349f7f88810b9c1bd595121953d99445ed7d15bee
@@ -263,7 +263,7 @@ install_fresh() {
     want man/man1/wave-version.1 0 497a0bf02192ccdf915c5851a6a0e82023643a40fe03b075eca86fe147a89141
     want man/man1/wave-zh.1 0 c377b4816644838a9909c608b0942e8b9d5d87ae825da2bcbeed7c559ec3f478
     want man/man1/wave.1 0 2ab7a5e2f00e72d02e49062da7be232c0867b8d704e6c87501269bc726333512
-    want net/domains.py 0 fac5439e5470ff026b500cfeb6b8f9990ca9f5d947f54999e14ae4a6e06ee933
+    want net/domains.py 0 7a890b205f7e85c0a4872bbda16cc2ac8fe2bf0410f472a36b36b18257d681c9
     want net/signature.py 0 2a84baf21b952da6d7c20a31eea977a21059c60b6acb2151e7b6cf1d8e1992b2
     want net/timeouts.py 0 5fb423ff10eef581faa6dc55eed66062377b6d6d274fccd7a427217c87209ed6
     want net/tls.py 0 8e28a5075612d3f989ce13c354996adbe3616f68ace2182921a8a91398ef169e
@@ -289,10 +289,10 @@ install_delta() {
     want config/configpaths.py 0 63699be24c82ac8a989fb7804ada3187279206e009f0bcb8fee3cac94fb09566
     want lib/latest.py 0 c0af297fef60278c8710ad4b28e6956c580ffe8662e41057552c4c08dc299117
     want lib/selfupdate.py 0 8ef3776cfe82c4ea7b3ed327485e3de061f9a11217d7de3096c88ef85680f31d
-    want lib/selfupdate.sh 1 77c2881a615dfd6edb75e363cd22acddf950f60ba414debd9330276a81ed5354
+    want lib/selfupdate.sh 1 ae4334582feee1c2005a5f0c69a383a130492e73c39bcda1764a0e7684953e24
     want lib/shellenv.py 0 7c6e90809622c392cfd8286b6f28f631bae529075957f5bc3f03ecb44dfda945
     want lib/versioncompare.py 0 9c93715c7bf5767adf6aa7f349f7f88810b9c1bd595121953d99445ed7d15bee
-    want net/domains.py 0 fac5439e5470ff026b500cfeb6b8f9990ca9f5d947f54999e14ae4a6e06ee933
+    want net/domains.py 0 7a890b205f7e85c0a4872bbda16cc2ac8fe2bf0410f472a36b36b18257d681c9
     want pkg/pkginfohelper.py 0 098f2682af25776d2b6680f232df5412be511286e56660ea62ed42010a7fb33d
     want pkg/pkginstaller.py 0 0007d9452dca18404f07da6847b9fc1800f2df188c7a93616187fc1f8fa81ab7
     want pkg/uninstaller.py 0 2c31ca678718685cb47b41e77b3e3d364071210624f46a358d193da46ba3d36e
