@@ -210,19 +210,19 @@ install_fresh() {
     # 首次安装（或修复一棵不完整的安装树）：所有文件都要。
     want Keys/D0E229FB.asc 0 f2852806fdd64f2df320e6446aa704455b4c85cfa27bead7d29ecf32e3d7647b
     want Keys/linuxwave-rsa.pub.pem 0 4b15601f77a302cc1ba2610cd3d96ff1e8982da98a401555eaa225fea6473c17
-    want cli/commands.py 0 5af616e1e5071f8a8d0b0f7536adea497bdbc9cfd8d010f9dd83cef6b42d49e9
-    want cli/common.py 0 9e8b3677e3d104f83e08ed5fb9ef55f9f6323a7548e893db1b3c4b59e4e48641
-    want cli/flags.py 0 85db8cee2108a0dac4542ca196cf4ff1eca790c384f98a8d676ee2e2a20e4b95
+    want cli/commands.py 0 60c8ee5a69ed8e5f89a989a72e8d8fe732287d2e39c1a20c6d2945571acc910f
+    want cli/common.py 0 67dbe285d23560589b234880c06138e4ce71dc57d1d6fbb538d778a0bdd5aa82
+    want cli/flags.py 0 8b1b24cff1b9950dae96d15d06a70857fca7a60982c2dc3c0ef7aae581fb7b8a
     want cli/help.py 0 04e940ce707a12f61b5501bf04690ea7b499c7edd192486098956988e0f48a42
-    want cli/help_zh.py 0 72797ad8ae67a682e7e985a26379da688b713f4a2c325056bf6d037e8588187e
+    want cli/help_zh.py 0 770d682682538eb5bd9b9ffe891903c149f417f76f50f294d39cc1ed9de0da1c
     want cli/manual.py 0 0993d72f5c218bf803d6db0de1a2b198531915dd9af1b059053bac4ab6d38ca8
-    want cli/silent.py 0 1b3f6a21a3d950d693faf10da59e8c783b69ce5a4e524c62073d139a7f594463
+    want cli/silent.py 0 03a88961bef9bd373a1117bd25c8de3a1115c26eecee0dfe48c06916efa73e6a
     want cli/suggest.py 0 1a4ead908dff2fe83917fbbf7d4fb47d144fb3a33d6319ec9349bf70b258a938
     want config/configerror.py 0 5357812ea1fe0ece0d3ef378564e5ab487da330b1221c85bf3e626d1b191fe28
     want config/configpaths.py 0 5997535f89f67c7da346c9210272164d544124e2af72bc20b864821b1a814c8e
     want config/envvar.py 0 705298d69c6d7bb4bd43a57043b6daf67137a91bf8be1ca306d818767a282b88
-    want info/wave-zh.info 0 4e9311cdb0ffc6df16c471ac440fb2773599972dd12bc3cb594534c6acb0636e
-    want info/wave.info 0 8aaedbdaa6dbfc59557ede4930403356d78c8766c9551e551dd06f9a834bf796
+    want info/wave-zh.info 0 ec242175807eff3091344bd4f9574cfcb0fa4e99184268e9a1a1bcc3a1f2ffcd
+    want info/wave.info 0 98c02010082ccd43a4837ec29a839d3cb3b363d886ae4b1ef4bab6e9e2240c64
     want lib/basedir.py 0 853e7b9dca4d1751c89f75f975a7a782bc18f71bbee347f0c75a9d7bd1dc0069
     want lib/downloads.py 0 4ddf19ee514f9fb9520bf8dfb2af637e1b7347d79ea018ea4974d5e1cca1ea03
     want lib/latest.py 0 c0af297fef60278c8710ad4b28e6956c580ffe8662e41057552c4c08dc299117
@@ -245,8 +245,8 @@ install_fresh() {
     want man/man1/wave-link.1 0 1b1803b3cda73f6fd20a48c9828a1abee7b7d04ca9997656d024a2a59f8be765
     want man/man1/wave-linkquery-zh.1 0 bcd9174ce7affd45f96e53d41a030a86b857077bcc5ee40e57d934cb21152ea8
     want man/man1/wave-linkquery.1 0 9dd3faa79f4880f8dfb8b6db2bca3d942e8a24aab292e490f94f79d9a57397b0
-    want man/man1/wave-list-zh.1 0 751bb9972c3532a4ba3977e5f9de74c646d66916d6d893b5f333cd1f31f4c3d0
-    want man/man1/wave-list.1 0 569e832580c7dc20efbd01ad32ac207af11449db49f1c9b6fd5fe533cbd447f0
+    want man/man1/wave-list-zh.1 0 64210fddac456536bcd6a633c3f096b0b7ae6cf1a87048c248942255a0cba7f7
+    want man/man1/wave-list.1 0 0426793023694e0b7ae56ce8b3e97221a9ad1922c83bdf45e00dac718a978d4f
     want man/man1/wave-manual-zh.1 0 64818b3304ef67cf715d0bbf10360bc6e1a6469475b6b8e97a515ee3b97a0e52
     want man/man1/wave-manual.1 0 e44428475ecd1f55d28784e651c3bc3d3b1da020dbadf0dda3d96279a9f6bd3b
     want man/man1/wave-mirror-zh.1 0 9046422636a029c7b9129a976f4d1b814fa1dbfd95b12d4d6a10e1ccb5082bf3
@@ -265,14 +265,14 @@ install_fresh() {
     want man/man1/wave-upgrade.1 0 cecdbfb8fa9ad099c29db6e43b288af2939fedad86046fa7232f7974b0ee3b26
     want man/man1/wave-version-zh.1 0 f024a2653ac979ada713d99861cf93d622e32efe9da7e912073cd6916e78ec49
     want man/man1/wave-version.1 0 497a0bf02192ccdf915c5851a6a0e82023643a40fe03b075eca86fe147a89141
-    want man/man1/wave-zh.1 0 ff65baa1017a8e9feaf22e1af8b6d097be4656e7f3ef82a36a0bb2f2be2c8fe3
-    want man/man1/wave.1 0 98687616ddeb62061632bcff1425edc51e91fbb483d08e510b8ff213d00bf6b7
+    want man/man1/wave-zh.1 0 3f96b3d91ae3f09e900696df045a8ffd5bee3fdb96ec133d0b3113042fd9a49c
+    want man/man1/wave.1 0 f05cdab47576e6238fb90e64d1625070acec4999f8966d8fd7df5887035a6138
     want net/domains.py 0 7a890b205f7e85c0a4872bbda16cc2ac8fe2bf0410f472a36b36b18257d681c9
     want net/signature.py 0 2a84baf21b952da6d7c20a31eea977a21059c60b6acb2151e7b6cf1d8e1992b2
     want net/timeouts.py 0 5fb423ff10eef581faa6dc55eed66062377b6d6d274fccd7a427217c87209ed6
     want net/tls.py 0 8e28a5075612d3f989ce13c354996adbe3616f68ace2182921a8a91398ef169e
     want pkg/linker.py 0 939febf57c55fd4ca4b83ec6ea52e9efbfcff50a0ff975c4109d120dfa213a7f
-    want pkg/pkginfohelper.py 0 098f2682af25776d2b6680f232df5412be511286e56660ea62ed42010a7fb33d
+    want pkg/pkginfohelper.py 0 7ff457835477973932fc2e4132f3f4c27f1c0e1434a8b963a150b8f5bc25f7e5
     want pkg/pkginstaller.py 0 7be1553eb9da9fe3347773c1cf9610ff818e09ec43ed877f93d067779a9cf78d
     want pkg/pkginstaller.sh 1 c530deaae95c0051a5f777bf964e799e0062851cb3ef1832d98dd896467a24f6
     want pkg/pkgunzip.sh 1 2a9af3a61049be356e6d4d9e5be44277aae667690806723300806df9cc755b20
@@ -291,19 +291,19 @@ install_delta() {
     # 没列出的文件保持不变 —— 它们的字节和上一版相同。
     want Keys/D0E229FB.asc 0 f2852806fdd64f2df320e6446aa704455b4c85cfa27bead7d29ecf32e3d7647b
     want Keys/linuxwave-rsa.pub.pem 0 4b15601f77a302cc1ba2610cd3d96ff1e8982da98a401555eaa225fea6473c17
-    want cli/commands.py 0 5af616e1e5071f8a8d0b0f7536adea497bdbc9cfd8d010f9dd83cef6b42d49e9
-    want cli/common.py 0 9e8b3677e3d104f83e08ed5fb9ef55f9f6323a7548e893db1b3c4b59e4e48641
-    want cli/flags.py 0 85db8cee2108a0dac4542ca196cf4ff1eca790c384f98a8d676ee2e2a20e4b95
+    want cli/commands.py 0 60c8ee5a69ed8e5f89a989a72e8d8fe732287d2e39c1a20c6d2945571acc910f
+    want cli/common.py 0 67dbe285d23560589b234880c06138e4ce71dc57d1d6fbb538d778a0bdd5aa82
+    want cli/flags.py 0 8b1b24cff1b9950dae96d15d06a70857fca7a60982c2dc3c0ef7aae581fb7b8a
     want cli/help.py 0 04e940ce707a12f61b5501bf04690ea7b499c7edd192486098956988e0f48a42
-    want cli/help_zh.py 0 72797ad8ae67a682e7e985a26379da688b713f4a2c325056bf6d037e8588187e
+    want cli/help_zh.py 0 770d682682538eb5bd9b9ffe891903c149f417f76f50f294d39cc1ed9de0da1c
     want cli/manual.py 0 0993d72f5c218bf803d6db0de1a2b198531915dd9af1b059053bac4ab6d38ca8
-    want cli/silent.py 0 1b3f6a21a3d950d693faf10da59e8c783b69ce5a4e524c62073d139a7f594463
+    want cli/silent.py 0 03a88961bef9bd373a1117bd25c8de3a1115c26eecee0dfe48c06916efa73e6a
     want cli/suggest.py 0 1a4ead908dff2fe83917fbbf7d4fb47d144fb3a33d6319ec9349bf70b258a938
     want config/configerror.py 0 5357812ea1fe0ece0d3ef378564e5ab487da330b1221c85bf3e626d1b191fe28
     want config/configpaths.py 0 5997535f89f67c7da346c9210272164d544124e2af72bc20b864821b1a814c8e
     want config/envvar.py 0 705298d69c6d7bb4bd43a57043b6daf67137a91bf8be1ca306d818767a282b88
-    want info/wave-zh.info 0 4e9311cdb0ffc6df16c471ac440fb2773599972dd12bc3cb594534c6acb0636e
-    want info/wave.info 0 8aaedbdaa6dbfc59557ede4930403356d78c8766c9551e551dd06f9a834bf796
+    want info/wave-zh.info 0 ec242175807eff3091344bd4f9574cfcb0fa4e99184268e9a1a1bcc3a1f2ffcd
+    want info/wave.info 0 98c02010082ccd43a4837ec29a839d3cb3b363d886ae4b1ef4bab6e9e2240c64
     want lib/basedir.py 0 853e7b9dca4d1751c89f75f975a7a782bc18f71bbee347f0c75a9d7bd1dc0069
     want lib/downloads.py 0 4ddf19ee514f9fb9520bf8dfb2af637e1b7347d79ea018ea4974d5e1cca1ea03
     want lib/latest.py 0 c0af297fef60278c8710ad4b28e6956c580ffe8662e41057552c4c08dc299117
@@ -326,8 +326,8 @@ install_delta() {
     want man/man1/wave-link.1 0 1b1803b3cda73f6fd20a48c9828a1abee7b7d04ca9997656d024a2a59f8be765
     want man/man1/wave-linkquery-zh.1 0 bcd9174ce7affd45f96e53d41a030a86b857077bcc5ee40e57d934cb21152ea8
     want man/man1/wave-linkquery.1 0 9dd3faa79f4880f8dfb8b6db2bca3d942e8a24aab292e490f94f79d9a57397b0
-    want man/man1/wave-list-zh.1 0 751bb9972c3532a4ba3977e5f9de74c646d66916d6d893b5f333cd1f31f4c3d0
-    want man/man1/wave-list.1 0 569e832580c7dc20efbd01ad32ac207af11449db49f1c9b6fd5fe533cbd447f0
+    want man/man1/wave-list-zh.1 0 64210fddac456536bcd6a633c3f096b0b7ae6cf1a87048c248942255a0cba7f7
+    want man/man1/wave-list.1 0 0426793023694e0b7ae56ce8b3e97221a9ad1922c83bdf45e00dac718a978d4f
     want man/man1/wave-manual-zh.1 0 64818b3304ef67cf715d0bbf10360bc6e1a6469475b6b8e97a515ee3b97a0e52
     want man/man1/wave-manual.1 0 e44428475ecd1f55d28784e651c3bc3d3b1da020dbadf0dda3d96279a9f6bd3b
     want man/man1/wave-mirror-zh.1 0 9046422636a029c7b9129a976f4d1b814fa1dbfd95b12d4d6a10e1ccb5082bf3
@@ -346,14 +346,14 @@ install_delta() {
     want man/man1/wave-upgrade.1 0 cecdbfb8fa9ad099c29db6e43b288af2939fedad86046fa7232f7974b0ee3b26
     want man/man1/wave-version-zh.1 0 f024a2653ac979ada713d99861cf93d622e32efe9da7e912073cd6916e78ec49
     want man/man1/wave-version.1 0 497a0bf02192ccdf915c5851a6a0e82023643a40fe03b075eca86fe147a89141
-    want man/man1/wave-zh.1 0 ff65baa1017a8e9feaf22e1af8b6d097be4656e7f3ef82a36a0bb2f2be2c8fe3
-    want man/man1/wave.1 0 98687616ddeb62061632bcff1425edc51e91fbb483d08e510b8ff213d00bf6b7
+    want man/man1/wave-zh.1 0 3f96b3d91ae3f09e900696df045a8ffd5bee3fdb96ec133d0b3113042fd9a49c
+    want man/man1/wave.1 0 f05cdab47576e6238fb90e64d1625070acec4999f8966d8fd7df5887035a6138
     want net/domains.py 0 7a890b205f7e85c0a4872bbda16cc2ac8fe2bf0410f472a36b36b18257d681c9
     want net/signature.py 0 2a84baf21b952da6d7c20a31eea977a21059c60b6acb2151e7b6cf1d8e1992b2
     want net/timeouts.py 0 5fb423ff10eef581faa6dc55eed66062377b6d6d274fccd7a427217c87209ed6
     want net/tls.py 0 8e28a5075612d3f989ce13c354996adbe3616f68ace2182921a8a91398ef169e
     want pkg/linker.py 0 939febf57c55fd4ca4b83ec6ea52e9efbfcff50a0ff975c4109d120dfa213a7f
-    want pkg/pkginfohelper.py 0 098f2682af25776d2b6680f232df5412be511286e56660ea62ed42010a7fb33d
+    want pkg/pkginfohelper.py 0 7ff457835477973932fc2e4132f3f4c27f1c0e1434a8b963a150b8f5bc25f7e5
     want pkg/pkginstaller.py 0 7be1553eb9da9fe3347773c1cf9610ff818e09ec43ed877f93d067779a9cf78d
     want pkg/pkginstaller.sh 1 c530deaae95c0051a5f777bf964e799e0062851cb3ef1832d98dd896467a24f6
     want pkg/pkgunzip.sh 1 2a9af3a61049be356e6d4d9e5be44277aae667690806723300806df9cc755b20
